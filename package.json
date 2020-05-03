@@ -2,7 +2,8 @@
   "name": "google-classroom-api-angular",
   "version": "0.0.0",
   "scripts": {
-    "start": "ng serve",
+    "ng": "ng",
+    "start": "node ./server/bin/www",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
